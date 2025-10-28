@@ -39,8 +39,8 @@ putit.prepend(btn);
 //solve it by class list?
 
 
-let para=document.querySelector("p")
+// let para=document.querySelector("p")
 
 // para.setAttribute("class","newContent");
 
-para.classList.add("newContent");
+// para.classList.add("newContent");

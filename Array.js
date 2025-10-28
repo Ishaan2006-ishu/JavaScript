@@ -18,15 +18,15 @@
 // let arr=[1,2,3,4,5,6];
 
 //q3. Create the array and apply the following operation
-let companies=["Bloomberg","Microsoft","google","uber","ibm","Netflix"]
+// let companies=["Bloomberg","Microsoft","google","uber","ibm","Netflix"]
 
-companies.shift();
-console.log(companies);
+// companies.shift();
+// console.log(companies);
 
-companies.splice(3,1,"ola");
-console.log(companies);
+// companies.splice(3,1,"ola");
+// console.log(companies);
 
-companies.push("Amazon");
-console.log(companies);
+// companies.push("Amazon");
+// console.log(companies);
 
 
