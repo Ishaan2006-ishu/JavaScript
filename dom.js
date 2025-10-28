@@ -18,8 +18,29 @@
     
 // }
 
-let btn=document.createElement("button");
-btn.innerText="click me";
+// let btn=document.createElement("button");
+// btn.innerText="click me";
 
-let box=document.querySelector(".box");
-box.append(btn)
+// let box=document.querySelector(".box");
+// box.append(btn)
+
+//create a new button element.give it a text "click me" , background color of red  and tect color of white
+
+let btn=document.createElement("button");
+btn.innerHTML="click me";
+btn.style.backgroundColor="red";
+btn.style.color="white";
+
+let putit=document.querySelector("body");
+putit.prepend(btn);
+
+// crete a <p> tag in html, give it a class and soes tyle
+// Now write a new class in css and try to append this class to the <p> element
+//solve it by class list?
+
+
+let para=document.querySelector("p")
+
+// para.setAttribute("class","newContent");
+
+para.classList.add("newContent");
